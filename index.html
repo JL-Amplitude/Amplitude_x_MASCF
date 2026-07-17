@@ -466,7 +466,7 @@ html[data-theme='dark'] .attr-btn.active{color:#0a0b0e;}
       </div>
       <div class="dcard reveal">
         <div class="n">COHORTE</div>
-        <h4 onclick="document.getElementById('imgModal').style.display='flex'" style="cursor:pointer;">Utilisateurs acquis via Taboola/Outbrain et convertis via SEA</h4>
+        <h4 onclick="document.getElementById('imgModalCohorte').style.display='flex'" style="cursor:pointer;">Utilisateurs acquis via Taboola/Outbrain et convertis via SEA</h4>
         <p>Segmentation des utilisateurs par les actions qui nous intéressent et qu'on pourra utilisser pour analyser son parcours</p>
       </div>
       <div class="dcard reveal">
@@ -476,11 +476,14 @@ html[data-theme='dark'] .attr-btn.active{color:#0a0b0e;}
       </div>
       <div class="dcard reveal">
         <div class="n">VUE</div>
-        <h4>Ad Performance / Marketing prêt à l'emploi</h4>
+        <h4 onclick="document.getElementById('imgModalAdPerf').style.display='flex'" style="cursor:pointer;">Ad Performance / Marketing prêt à l'emploi</h4>
         <p>Clics, dépense, CAC et ROAS par UTM — une fois les métriques pub rapprochées du comportement.</p>
       </div>
-      <div id="imgModal" onclick="this.style.display='none'" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); align-items:center; justify-content:center; z-index:1000;">
+      <div id="imgModalCohorte" onclick="this.style.display='none'" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); align-items:center; justify-content:center; z-index:1000;">
         <img src="images/cohorte.png" alt="Image pour le cohorte des utilissateurs" style="max-width:90%; max-height:90%;">
+      </div>
+      <div id="imgModalAdPerf" onclick="this.style.display='none'" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); align-items:center; justify-content:center; z-index:1000;">
+        <img src="images/ad_perfomance.png" alt="Image pour le rapport ad performance" style="max-width:90%; max-height:90%;">
       </div>
     </div>
   </div>
